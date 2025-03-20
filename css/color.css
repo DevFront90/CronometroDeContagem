@@ -1,0 +1,11 @@
+/* color css */
+:root {
+    --color-main:rgba(21, 8, 34, 0.904);
+    --color-dark-lavender-gray:#0c001a;
+    --color-overlay:rgba(0,0,0,0.3);
+    --color-white:#ffffff;
+    --font-inter:Inter;
+    --color-soft-red:#ee1b50e1;
+    --color-late-lue:#8385A9;
+}
+/***/

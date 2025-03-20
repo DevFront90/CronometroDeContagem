@@ -1,0 +1,218 @@
+/* import google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lato:wght@100;400;700&family=Mukta+Malar:wght@200;400;500;600;700&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Oswald&family=Poppins:wght@100;400;500;600;700&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,400;0,500;0,700;1,100&family=Space+Grotesk:wght@300..700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+/***/
+/* import color css */
+@import "./color.css";
+/***/
+/* class specific */
+main {
+    width: 100%;
+    height: 100vh;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-color:var(  --color-main);
+    background-blend-mode: darken;
+    position: relative;
+    background-position: top center;
+}
+
+main {
+    .overlay {
+        width: 100%;
+        height: 100%;
+        background-color: var(--color-overlay);
+        position:absolute;
+        top: 0;
+        left:0;
+        z-index:-1;
+    }
+}
+
+main {
+    .border {
+        width: 100%;
+        height: 200px; 
+        background-size: cover; 
+        background-repeat: no-repeat;
+        background-position: bottom center;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+    }
+}
+
+main {
+    .flex {
+        width: 100%;
+       display: flex;
+       align-items: center;
+       flex-direction: column;
+       position: relative;
+       top: 130px;
+       z-index: 2;
+    }
+}
+
+
+.flex {
+    .title {
+        font-size: 20px;
+        font-weight:300;
+        text-align: center;
+        text-transform: uppercase;
+        font-family: var( --font-inter);
+        color: var(--color-white);
+        
+    }
+}
+
+.flex {
+    .content {
+        width: 50%;
+        display: flex;
+        align-items: center;
+        justify-content:center;
+        position: relative;
+        top: 120px;
+        gap: 30px;
+    }
+}
+
+.content {
+    .box {
+       width: 100px;
+       height: 100px;
+       background-color: var(--color-dark-lavender-gray);
+       border-radius: 10px;
+       box-shadow: inset 0px -4px 5px rgba(0, 0, 0, 0.5);
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       justify-content: center;
+       position: relative;
+        
+    }
+}
+
+.content{
+    .colum{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 10px;
+     }
+}
+
+.box::before,
+.box::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 50%;
+    background: rgba(255, 255, 255, 0.05);
+    left: 0;
+    transition: 0.3s;
+}
+
+.box::before {
+    top: 0;
+    border-radius: 10px 10px 0 0;
+}
+
+.box::after {
+    bottom: 0;
+    border-radius: 0 0 10px 10px;
+}
+
+.colum {
+    .number {
+        font-size: 50px;
+        font-weight:bold;
+        color: var(--color-soft-red);
+    }
+
+    .days {
+        span {
+            color:var( --color-late-lue);
+            font-size: 15px;
+            font-weight: 600;
+            font-family: var(--font-inter);
+        }
+    }
+
+    .hours {
+        span {
+            color:var( --color-late-lue);
+            font-size: 15px;
+            font-weight: 600;
+            font-family: var(--font-inter);
+        }
+    }
+
+    .minutes {
+        span {
+            color:var( --color-late-lue);
+            font-size: 15px;
+            font-weight: 600;
+            font-family: var(--font-inter);
+        }
+    }
+
+    .seconds {
+        span {
+            color:var( --color-late-lue);
+            font-size: 15px;
+            font-weight: 600;
+            font-family: var(--font-inter);
+        }
+    }
+}
+
+.border {
+    .socials {
+        position:fixed;
+        bottom: 50px;
+        left: 50%;
+        transform: translate(-50%);
+        display: flex;
+        align-items: center;
+        gap: 30px;
+        
+    }
+}
+
+.socials {
+    .face {
+        img {
+            width: 18px;
+            transition: .5s;
+            cursor: pointer;
+        }
+    }
+
+    .pinterest {
+        img {
+            width: 18px;
+            transition: .5s;
+            cursor: pointer;
+        }
+    }
+
+    .instagram {
+        img {
+            width: 18px;
+            transition: .5s;
+            cursor: pointer;
+        }
+    }
+}
+
+.socials img:hover {
+    transform: scale(1.1);
+}
+
+
+
+/***/

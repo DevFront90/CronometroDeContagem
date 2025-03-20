@@ -1,0 +1,93 @@
+/* media screen*/
+@media screen and (max-width:1273px) {
+    main {
+        .border {
+            height: 200px; 
+            background-size:cover; 
+           
+        }
+    }
+}
+
+@media screen and (max-width:530px) {
+   
+    main {
+        .border {
+           
+            height: 150px; 
+        }
+    }
+    
+
+    .flex {
+        .title {
+            font-size: 16px;
+        }
+    }
+   
+    .content {
+        .box {
+           width: 75px;
+           height: 75px;
+          
+            
+        }
+    }
+
+    .colum {
+        .number {
+            font-size: 35px;
+           
+        }
+    
+    }
+    
+
+}
+
+@media screen and (max-width:480px) {
+    .flex {
+        .title {
+            font-size: 13px;
+        }
+    }
+
+    .content {
+        .box {
+           width: 53px;
+           height: 53px;
+          
+            
+        }
+    }
+
+    .colum {
+
+        .days {
+            span {
+                font-size: 11px;
+            }
+        }
+    
+        .hours {
+            span {
+               font-size: 11px;
+             }
+        }
+    
+        .minutes {
+            span {
+              font-size: 11px;
+            }
+        }
+    
+        .seconds {
+            span {
+                font-size: 11px;
+            }
+        }
+    }
+    
+}
+
+/***/
