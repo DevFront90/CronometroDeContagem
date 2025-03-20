@@ -173,13 +173,13 @@ main {
 
 .border {
     .socials {
-        position:fixed;
-        bottom: 50px;
+        position:absolute;
+        bottom: 20px;
         left: 50%;
         transform: translate(-50%);
         display: flex;
         align-items: center;
-        gap: 30px;
+        gap: 20px;
         
     }
 }
