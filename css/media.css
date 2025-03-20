@@ -90,4 +90,15 @@
     
 }
 
+
+@media screen and (max-width:375px) {
+    .border {
+        .socials {
+            bottom: 30px;
+           
+            
+        }
+    }
+}
+
 /***/
