@@ -94,8 +94,8 @@
 @media screen and (max-width:375px) {
     .border {
         .socials {
-            bottom: 30px;
-           
+       bottom: 20px;
+       gap: 20px;
             
         }
     }
