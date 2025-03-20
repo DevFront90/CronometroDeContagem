@@ -92,6 +92,11 @@
 
 
 @media screen and (max-width:375px) {
+      main {
+        .border {
+            height: 250px; 
+        }
+    }
     .border {
         .socials {
        bottom: 20px;
