@@ -13,7 +13,7 @@
    
     main {
         .border {
-           height: 120px; 
+           height: 100px; 
         }
     }
     
@@ -91,11 +91,7 @@
 
 
 @media screen and (max-width:375px) {
-      main {
-        .border {
-            height: 180px; 
-        }
-    }
+     
     .border {
         .socials {
        bottom: 20px;
